@@ -4,12 +4,13 @@ demo code for cutn-qsvm_benchmark with h100 cluster
 ## Create Envirement and Requirement
 ### 1. Built OpenMPI based on prebuilt packages in NVHPC (UCX, UCC, Hcoll, NCCL, CUDA SDK, ...) and Python 3.12 by gcc. 
 To use them, first load the module path
-### 2. Built venv
 ```
 ml purge
 ml python/3.12.8
 ml openmpi/5.0.6
-
+```
+### 2. Built venv
+```
 ENV=<Your venv path>
 python3 -m venv ${ENV}
 
