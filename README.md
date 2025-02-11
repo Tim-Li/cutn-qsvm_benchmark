@@ -44,5 +44,5 @@ qubits, [num train data, num list, num parti-list, num gpu], [exp_t, operand_t, 
 256, 500, 124750, 3899, 32,  0.124, 38.908, 1.499, 222.767, 263.298
 ```
 
-## 2. Previous Result
+#### Previous Result
 ![alt text](pre_result.png)
